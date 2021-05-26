@@ -1,5 +1,5 @@
-# Python codes for Caesar Cipher encryption
-def ceaser_cipher_encrypt(text, shift):
+# Python codes for Substituion Cipher encryption
+def substituion_cipher_encrypt(text, shift):
 
     t = list(text)
     textt=[]
@@ -22,12 +22,12 @@ def ceaser_cipher_encrypt(text, shift):
     texttt =""
     return (texttt.join(textt))
  
-#checking the ceaser_cipher_encrypt function  
-ceaser_text = input("Please give the plaintext : ")      # input: naz
-ceaser_shift = input("Please give the shift number : ")  # input: 11
+#checking the substituion_cipher_encrypt function  
+substituion_text = input("Please give the plaintext : ")      # input: naz
+substituion_shift = input("Please give the shift number : ")  # input: 11
 
 
-print ("Ciphertext : ", ceaser_cipher_encrypt(ceaser_text, ceaser_shift)) #output: ylk
+print ("Ciphertext : ", substituion_cipher_encrypt(substituion_text, substituion_shift)) #output: ylk
 
 
 # Python codes for Hill Cipher encryption
