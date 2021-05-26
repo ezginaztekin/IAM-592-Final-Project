@@ -77,24 +77,24 @@ def hill_cipher_encrypt(text, key):
   
 # Getting key matrix from the key string 
   k = 0
-  for i in range(3):
-      for j in range(3):
+  for i in range(a):
+      for j in range(a):
           key_matrix[i, j] = ord(key[k]) % 65
           k += 1 
  
 # Getting vector from the text string
-  for i in range(3):
+  for i in range(a):
       text_matrix[i] = ord(text[i]) % 65
   
 # Getting the encrypted vector with key metrix and text matrix
-  for i in range(3):
-    for j in range(3):
+  for i in range(a):
+    for j in range(a):
       cipher_matrix[i] += (key_matrix[i, j] * text_matrix[j])
     cipher_matrix[i] = cipher_matrix[i] % 26
 
 # Generating the encrypted text from the encrypted vector
   cipher_text = []
-  for i in range(3):
+  for i in range(a):
       cipher_text.append(chr(cipher_matrix[i] + 65))
   
     # Returning the ciphertext
