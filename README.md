@@ -7,6 +7,7 @@ Shift Cipher is one of the most widely known cryptographic technique which is ba
 
 In encrytion, the letter x is shifted to n step right, 
 E_{n}(x)=(x + n) mod (26)
+
 In decryption, the letter x is shifted to n step left,
 D_{n}(x)=(x - n) mod (26)
 
