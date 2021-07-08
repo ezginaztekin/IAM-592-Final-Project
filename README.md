@@ -15,10 +15,10 @@ D_{n}(x)=(x - n) mod (26)
 ## Ceaser Cipher
 This is the special shift cipher. Only difference is n is fixed number 3. This means that, 
 
-In encrytion, the letter x is shifted to n step right, 
+In encrytion, the letter x is shifted to 3 step right, 
 E_{3}(x)=(x + 3) mod (26)
 
-In decryption, the letter x is shifted to n step left,
+In decryption, the letter x is shifted to 3 step left,
 D_{3}(x)=(x - 3) mod (26)
 
 
