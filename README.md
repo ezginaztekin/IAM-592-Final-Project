@@ -1,6 +1,6 @@
 # IAM-592-Final-Project
 In this project, I write a basic game including historical cryptography ciphers and
-their analyses to find plaintexts and ciphertexts with keys. To do this, I used all historical ciphers such as ceaser cipher, shift cipher, affine cipher, hill cipher, vigenere cipher, substitution cipher, permutation cipher. This game will be mainly ocurred by steps oftheir encryptions, decryptions and cryptographic analyses. 
+their analyses to find plaintexts and ciphertexts with keys. To do this, I used all historical ciphers such as ceaser cipher, shift cipher, affine cipher, hill cipher, vigenere cipher, substitution cipher, permutation cipher. This game will be mainly ocurred by steps of their encryptions, decryptions and cryptographic analyses. 
 
 ## Shift Cipher 
 Shift Cipher is one of the most widely known cryptographic technique which is based on modular arithmetic. In shift cipher, each letter in the plaintext is replaced by left or right n.letter. 
