@@ -43,8 +43,14 @@ In dencryption part, we have the key (a,b) where  a, b € Z_26
 
 D_K (x) =  a^(-1) (y - b) (mod 26)    where y is encrypted message.
 
+## Vigenere Cipher
+Let m be a positive integer. Define the space of plaintext, ciphertext and key as Z_26^m. For a key K = (k_1,k_2, ... , k_m), we define
 
-
+In encryption,
+E_K(x_1,x_2, ... , x_m) = (x_1+ k_1, x_2 + k_2, ... , x_m + k_m) 
+In decryption,
+D_K(y_1,y_2, ... , y_m) = (y_1 - k_1, y_2 - k_2,... , y_m - k_m)  
+where all operations are performed in Z_26.
 
 
 
