@@ -30,14 +30,18 @@ For example, in Turkish alphabet, there are 29 letter so if we use this alphabet
 In encryption part, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. In dencryption part, each block is multiplied by the inverse of the matrix used for encryption. The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).
 
 
-
-## Vigenere Cipher
-
-
-
-
 ## Affine Cipher 
+## Affine Cipher 
+Affine cipher is another substitution cipher. We have a key space:
+  K = {(a,b)€ Z_26  X Z_26 : gcd(a, 26) = 1 }  
 
+In encryption part, we have the key (a,b)€ K where a, b € Z_26  (according to english alphabet) and x is the each letter of message.
+
+E_K (x) = (ax+b) (mod 26)    
+Observe that if a = 1 , then we have shift cipher.
+
+In dencryption part, we have the key (a,b) where  a, b € Z_26
+D_K (x) =  a^(-1) (y - b) (mod 26)    where y is encrypted message.
 
 
 
