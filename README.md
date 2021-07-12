@@ -38,9 +38,11 @@ Affine cipher is another substitution cipher. We have a key space:
 In encryption part, we have the key (a,b)€ K where a, b € Z_26  (according to english alphabet) and x is the each letter of message.
 
 E_K (x) = (ax+b) (mod 26)    
+
 Observe that if a = 1 , then we have shift cipher.
 
 In dencryption part, we have the key (a,b) where  a, b € Z_26
+
 D_K (x) =  a^(-1) (y - b) (mod 26)    where y is encrypted message.
 
 
