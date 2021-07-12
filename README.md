@@ -29,8 +29,6 @@ A = 0 , B = 1 , C = 2, D = 3, ...... X = 23, Y = 24, Z = 25.
 For example, in Turkish alphabet, there are 29 letter so if we use this alphabet, we must look at the modulo 29.
 In encryption part, each block of n letters (considered as an n-component vector) is multiplied by an invertible n × n matrix, against modulus 26. In dencryption part, each block is multiplied by the inverse of the matrix used for encryption. The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n × n matrices (modulo 26).
 
-
-## Affine Cipher 
 ## Affine Cipher 
 Affine cipher is another substitution cipher. We have a key space:
   K = {(a,b)€ Z_26  X Z_26 : gcd(a, 26) = 1 }  
